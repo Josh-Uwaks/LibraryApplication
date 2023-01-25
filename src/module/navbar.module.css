@@ -1,0 +1,32 @@
+.navbarlist li{
+    padding: 0 25px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+.navbarlist li:hover{
+    color: #DC2626;
+}
+.nav{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+}
+.search{
+    display: flex;
+}
+.search input[type='text']{
+    padding:8px 12px;
+    outline: none;
+    font-size: 13px;
+    width: 100%;
+    border: .5px solid #b2b2b2;
+}
+.search input[type='text']::placeholder{
+    color:black;
+}
+.submenu{
+    display: grid;
+    grid-template-columns: 320px 1fr;
+}

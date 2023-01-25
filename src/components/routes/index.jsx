@@ -1,0 +1,6 @@
+export {default as Home} from './home'
+export {default as About} from './about'
+export {default as ContactUs} from './contactus'
+export {default as Faqs} from './faqs'
+export {default as Publishing} from './publishing'
+export {default as Event} from './events&news' 
