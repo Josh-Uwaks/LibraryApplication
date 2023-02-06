@@ -5,7 +5,7 @@ import { About, ContactUs, Event, Faqs, Home, Publishing } from './components/ro
 import Footer from './components/footer/footer';
 function App(){
   return(
-    <div className='bg-[#f5f5f5] border-t-2 border-red-600'>
+    <div className='bg-[#f5f5f5] border-t-[4px] border-[#FFBA00]'>
       <Router>
         <Navbar/>
         <Routes>

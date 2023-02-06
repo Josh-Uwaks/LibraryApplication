@@ -2,3 +2,6 @@
     display: grid;
     grid-template-columns:320px 1fr;
 }
+.catelogue::-webkit-scrollbar{
+    width: 0;
+}
